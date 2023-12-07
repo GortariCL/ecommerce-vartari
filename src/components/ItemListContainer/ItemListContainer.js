@@ -9,7 +9,6 @@ export const ItemListContainer = ({ title }) => {
   useEffect(() => {
     setItems(itemList);
   }, []);
-  console.log(items);
 
   return (
     <div>
