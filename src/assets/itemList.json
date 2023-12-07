@@ -2,16 +2,16 @@
   {
     "id": 1,
     "name": "Cocktails",
-    "img": "imagen/cocktail.jpg"
+    "img": "https://media.istockphoto.com/id/1319617585/es/vector/juego-de-seis-c%C3%B3cteles-populares-creado-para-dise%C3%B1os-de-men%C3%BA-conjunto-de-bebidas-alcoh%C3%B3licas.jpg?s=612x612&w=0&k=20&c=9vvu2CRlHCmeWdbZW8eDCkXrnI9KEe1ClP7lxlQFo24="
   },
   {
     "id": 2,
     "name": "Vinos",
-    "img": "imagen/vinos.jpg"
+    "img": "https://lavinoteca.vteximg.com.br/arquivos/ids/161490-1000-1000/5791_1-min.jpg?v=637885895240700000"
   },
   {
     "id": 3,
     "name": "Cervezas",
-    "img": "imagen/cervezas.jpg"
+    "img": "https://imprentabuin.cl/wp-content/uploads/2021/05/Etiquetas-full-color-para-cervezas.jpg"
   }
 ]
