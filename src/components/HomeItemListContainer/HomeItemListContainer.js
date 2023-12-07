@@ -16,7 +16,7 @@ export const HomeItemListContainer = ({ title }) => {
       <h1 className="title">{title.toUpperCase()}</h1>
       <div className="item__list__container">
         {items.map((item) => (
-          <Link className="item__link" to={item.name}>
+          <Link className="item__link" to={item.name.toLowerCase()}>
             <div className="item__list">
               <div className="img__frame">
                 <img className="img__crop" src={item.img} alt={item.name} />
