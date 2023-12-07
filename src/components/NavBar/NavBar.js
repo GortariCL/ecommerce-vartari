@@ -42,7 +42,7 @@ function CollapsibleExample() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );
+  ); 
 }
 
 export default CollapsibleExample;
