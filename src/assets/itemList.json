@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Cocktails",
+    "img": "imagen/cocktail.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Vinos",
+    "img": "imagen/vinos.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Cervezas",
+    "img": "imagen/cervezas.jpg"
+  }
+]

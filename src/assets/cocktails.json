@@ -3,56 +3,56 @@
     "id": 1,
     "nombre": "Mojito Clásico",
     "descripcion": "Refrescante cóctel de menta, ron, azúcar, lima y soda.",
-    "precio": 8.5,
-    "imagen": "https://sololicores.cl/wp-content/uploads/2021/04/12.jpg"
+    "precioCLP": 6500,
+    "imagen": "ruta/imagen/mojito.jpg"
   },
   {
     "id": 2,
     "nombre": "Piña Colada",
     "descripcion": "Deliciosa mezcla de ron, crema de coco y jugo de piña.",
-    "precio": 9.0,
-    "imagen": "https://media.istockphoto.com/id/1187327340/es/foto/pina-colada-bebida-popular-sobre-fondo-negro.jpg?s=2048x2048&w=is&k=20&c=4Zi5w5FXwbVil9cMJFdeSTfAsQg49WrzCwn0vuyRXxE="
+    "precioCLP": 6900,
+    "imagen": "ruta/imagen/pina_colada.jpg"
   },
   {
     "id": 3,
     "nombre": "Daiquiri de Fresa",
     "descripcion": "Cóctel a base de ron blanco, fresas y jugo de limón.",
-    "precio": 7.75,
+    "precioCLP": 5950,
     "imagen": "ruta/imagen/daiquiri_fresa.jpg"
   },
   {
     "id": 4,
     "nombre": "Margarita",
     "descripcion": "Cóctel de tequila, triple sec y jugo de lima.",
-    "precio": 8.0,
+    "precioCLP": 6400,
     "imagen": "ruta/imagen/margarita.jpg"
   },
   {
     "id": 5,
     "nombre": "Caipirinha",
     "descripcion": "Cóctel brasileño con cachaça, lima, azúcar y hielo.",
-    "precio": 7.5,
+    "precioCLP": 6000,
     "imagen": "ruta/imagen/caipirinha.jpg"
   },
   {
     "id": 6,
     "nombre": "Martini Espresso",
     "descripcion": "Combinación de vodka, licor de café y espresso.",
-    "precio": 9.5,
+    "precioCLP": 7600,
     "imagen": "ruta/imagen/martini_espresso.jpg"
   },
   {
     "id": 7,
     "nombre": "Sangría",
     "descripcion": "Refrescante mezcla de vino tinto, frutas y brandy.",
-    "precio": 10.0,
+    "precioCLP": 8000,
     "imagen": "ruta/imagen/sangria.jpg"
   },
   {
     "id": 8,
     "nombre": "Mai Tai",
     "descripcion": "Cóctel tropical con ron, curaçao, almendra y limón.",
-    "precio": 9.75,
+    "precioCLP": 7800,
     "imagen": "ruta/imagen/mai_tai.jpg"
   }
 ]

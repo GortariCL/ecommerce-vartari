@@ -1,27 +1,25 @@
 import React, { useState, useEffect } from "react";
-import itemDetail from "../../assets/itemDetail.json";
-import { ItemDetailContainer } from "../ItemDetailContainer/ItemDetailContainer";
+import itemList from "../../assets/itemList.json";
 
-export const ItemListContainer = () => {
+import "./ItemListContainer.css";
+
+export const ItemListContainer = ({ title }) => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    setItems(itemDetail)
+    setItems(itemList);
   }, []);
   console.log(items);
 
   return (
     <div>
-      <h1>Lista de Cocktails</h1>
-      <div className="cocktail-list">
+      <h1>{title}</h1>
+      <div className="cocktail__list">
         {items.map((item) => (
-          <ItemDetailContainer
-            key={item.id}
-            nombre={item.nombre}
-            descripcion={item.descripcion}
-            precio={item.precio}
-            imagen={item.imagen}
-          />
+          <div className="item__detail">
+            <img src={item.img} alt={item.name} />
+            <h2>{item.name}</h2>
+          </div>
         ))}
       </div>
     </div>

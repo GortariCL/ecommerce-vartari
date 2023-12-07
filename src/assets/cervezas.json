@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nombre": "IPA",
+    "descripcion": "Cerveza ale con sabor a lúpulo y notas cítricas.",
+    "precioCLP": 5600,
+    "imagen": "ruta/imagen/ipa.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Stout",
+    "descripcion": "Cerveza oscura y cremosa con matices a café y chocolate.",
+    "precioCLP": 6800,
+    "imagen": "ruta/imagen/stout.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Pilsner",
+    "descripcion": "Cerveza lager refrescante con un sabor equilibrado.",
+    "precioCLP": 5150,
+    "imagen": "ruta/imagen/pilsner.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Witbier",
+    "descripcion": "Cerveza de trigo con toques cítricos y especiados.",
+    "precioCLP": 5900,
+    "imagen": "ruta/imagen/witbier.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Amber Ale",
+    "descripcion": "Cerveza ale de color ámbar con sabor a caramelo y frutas.",
+    "precioCLP": 6400,
+    "imagen": "ruta/imagen/amber_ale.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Saison",
+    "descripcion": "Cerveza belga especiada y refrescante.",
+    "precioCLP": 6000,
+    "imagen": "ruta/imagen/saison.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Pale Ale",
+    "descripcion": "Cerveza de cuerpo medio con sabor a lúpulo y maltas.",
+    "precioCLP": 5800,
+    "imagen": "ruta/imagen/pale_ale.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Porter",
+    "descripcion": "Cerveza oscura con aromas a café, cacao y frutos secos.",
+    "precioCLP": 7000,
+    "imagen": "ruta/imagen/porter.jpg"
+  }
+]
