@@ -14,9 +14,9 @@ export const ItemListContainer = ({ title }) => {
   return (
     <div>
       <h1>{title}</h1>
-      <div className="cocktail__list">
+      <div className="item__list__container">
         {items.map((item) => (
-          <div className="item__detail">
+          <div className="item__list">
             <img src={item.img} alt={item.name} />
             <h2>{item.name}</h2>
           </div>
