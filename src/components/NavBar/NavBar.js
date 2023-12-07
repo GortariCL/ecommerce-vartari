@@ -35,7 +35,7 @@ function CollapsibleExample() {
             <Link className="nav__link" to="/contact">Contacto</Link>
           </Nav>
           <Nav>
-            <Link className="nav__link" to="#deets">
+            <Link className="nav__link" to="/cart">
               <CartWidget />
             </Link>
           </Nav>

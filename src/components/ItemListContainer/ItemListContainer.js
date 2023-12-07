@@ -1,28 +1,19 @@
-import React, { useState, useEffect } from "react";
-import itemList from "../../assets/itemList.json";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 
 import "./ItemListContainer.css";
 
-export const ItemListContainer = ({ title }) => {
+export const ItemListContainer = () => {
   const [items, setItems] = useState([]);
+  const product = useParams();
 
   useEffect(() => {
-    setItems(itemList);
-  }, []);
+    setItems(product);
+  }, [product]);
 
-  return (
-    <div>
-      <h1>{title.toUpperCase()}</h1>
-      <div className="item__list__container">
-        {items.map((item) => (
-          <div className="item__list">
-            <div className="img__frame">
-              <img className="img__crop" src={item.img} alt={item.name} />
-            </div>
-            <h2>{item.name.toUpperCase()}</h2>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+  console.log(items);
+
+  return <>
+    <h1>Productos</h1>
+  </>;
 };
