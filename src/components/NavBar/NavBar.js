@@ -16,7 +16,7 @@ function CollapsibleExample() {
       data-bs-theme="dark"
     >
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
             src={logo}
             width="150"
