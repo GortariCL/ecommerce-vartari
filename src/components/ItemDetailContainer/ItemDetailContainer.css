@@ -1,0 +1,24 @@
+.item__detail {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item__detail h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.item__detail p {
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.item__detail img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
