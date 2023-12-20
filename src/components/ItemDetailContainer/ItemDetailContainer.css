@@ -8,6 +8,7 @@
   margin: 16px;
   width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .item__detail h2 {
